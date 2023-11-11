@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>162</width>
+    <height>52</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>162</width>
+    <height>52</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>162</width>
+    <height>52</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Amount</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="123.qrc">
+    <normaloff>:/new/png/ic.png</normaloff>:/new/png/ic.png</iconset>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Sum:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="123.qrc"/>
+ </resources>
+ <connections/>
+</ui>
